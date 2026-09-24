@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Carl John Cero — IT student portfolio">
+  <title>Carl John Cero | IT Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">CJC<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="kicker">IT Student · Web Development Learner</p>
+        <h1>Hello, I'm <span>Carl John Cero.</span></h1>
+        <p class="hero-text">I am an Information Technology student at PHINMA University of Iloilo, building practical digital solutions and growing my skills in web development and network design.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">Explore my work <span>↗</span></a><a class="button secondary" href="#contact">Get in touch</a></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative technology graphic"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="code-card"><span class="dots">● ● ●</span><pre><code>&lt;developer&gt;
+  <b>create</b>(
+    ideas,
+    solutions
+  );
+&lt;/developer&gt;</code></pre></div></div>
+    </section>
+    <section class="section container" id="about"><div class="section-label">01 / About me</div><div class="about-grid"><h2>Learning today.<br><em>Building tomorrow.</em></h2><div><p>I’m Carl John Cero, an IT student from Iloilo with an interest in creating useful, accessible, and reliable technology. I enjoy learning through hands-on projects and turning classroom concepts into working systems.</p><p>My current interests include website development, system design, and computer networking. I am always open to learning new tools and collaborating on meaningful projects.</p></div></div></section>
+    <section class="section projects-section" id="projects"><div class="container"><div class="section-label">02 / Featured projects</div><div class="section-title-row"><h2>Things I've worked on</h2><span class="project-count">03 projects</span></div><div class="project-grid"><article class="project-card featured"><div class="project-number">01</div><div class="project-icon">▦</div><h3>School Management System</h3><p>A system concept designed to help organize school information and make common academic management tasks more efficient.</p><div class="tags"><span>System Design</span><span>Web Development</span></div></article><article class="project-card"><div class="project-number">02</div><div class="project-icon">◌</div><h3>Personal Portfolio</h3><p>A responsive portfolio website that presents my background, skills, projects, and journey as an IT student.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article><article class="project-card"><div class="project-number">03</div><div class="project-icon">⌁</div><h3>Network Design</h3><p>A network design project focused on planning connected systems, structure, and communication between devices.</p><div class="tags"><span>Networking</span><span>Planning</span></div></article></div></div></section>
+    <section class="section container" id="skills"><div class="section-label">03 / Skills & experience</div><div class="skills-grid"><div><h2>My toolkit</h2><p class="muted">Technologies and areas I am developing through study and practice.</p></div><div class="skill-list"><div class="skill"><span>Web Development</span><b>01</b></div><div class="skill"><span>HTML & CSS</span><b>02</b></div><div class="skill"><span>JavaScript Fundamentals</span><b>03</b></div><div class="skill"><span>Network Design</span><b>04</b></div><div class="skill"><span>System Analysis</span><b>05</b></div></div></div><div class="experience-box"><span class="status-dot"></span><div><strong>Basic Training in Web Development</strong><p>Practical training and continued self-learning in building websites and understanding modern web fundamentals.</p></div><span class="date">Experience</span></div></section>
+    <section class="section contact-section" id="contact"><div class="container contact-content"><div class="section-label">04 / Contact</div><h2>Let's connect<span>.</span></h2><p>Interested in my work or want to collaborate? I would be happy to hear from you.</p><a class="button primary" href="https://github.com/carlceroui-web" target="_blank" rel="noopener">Visit my GitHub <span>↗</span></a></div></section>
+  </main>
+  <footer class="footer"><div class="container"><span>© <span id="year"></span> Carl John Cero</span><span>Built with curiosity & code.</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
